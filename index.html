@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="columnview">
+        
+        <div >
+            <h1>APPLY WITH RESUME </h1>
+        </div>
+
+        <div>
+            <p class="firstline">
+                Please fill in the details and upload your CV to submit the form.
+                form will expire in 7m 57s.
+            </p>
+        </div>
+        <br>
+        <div>
+        <form action="index.html" style="padding-left: 200px;" >
+        <div class="rowview">
+            <div class="columnview" style="justify-items: end;">
+                <form action="index.html" style="padding-left: 200px;">
+                    <input class="inputbox" type="text" id="name" name="name" value="" placeholder="Your Name*"><br>
+                    <input class="inputbox" type="tel" id="phone" name="phone" pattern="[789][0-9]{9}" placeholder="Contact Number*"><br>
+                    <input class="inputbox" type="email" id="email" name="email" placeholder="Email Id*"><br>
+                    <input class="inputbox" type="text" id="location" name="location" value="" placeholder="Your location*"><br>
+
+                    <select class="inputbox" name="preferred location" id="location" aria-placeholder="Preferred location" >
+                        <option value="">Preferred Location</option>
+                        <option value="Australia-sydney">Australia-sydney</option>
+                        <option value="India-noida">India-noida</option>
+                        <option value="India-calicut">India-calicut</option>
+                        <option value="India-trivandrum">India-trivandrum</option>
+                        <option value="India-kakkanad">India-kakkanad</option>
+                        <option value="India-koratty">India-koratty</option>
+                    </select><br>
+                    <input class="inputbox2" type="textarea" id="paragraph" name="paragraph" value="" placeholder="Describe yourself">
+                    <p style="font-family: 'Montserrat',sans-serif;"> <em>500 Characters remaining</em> </p>
+                    <br>
+            </div>
+
+            <div class="columnview" style="justify-items: end; padding-left: 50px;font-family: 'Montserrat',sans-serif;">
+                <div class="rowview">
+                <h4 class="headingex">Experience*</h4>
+                <input class="inputnum" type="number" id="year" name="year" min="0" max="100" placeholder="Year" >
+                <input class="inputnum" type="number" id="month" name="month" min="1" max="12" placeholder="Month">
+                </div><br>
+                <select class="inputbox3" name="preferred location" id="location" aria-placeholder="Preferred location" >
+                    <option value="">Department*</option>
+                    <option value="Business Analysis">Business Analysis</option>
+                    <option value="Business Development">Business Development</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Development">Development</option>
+                    <option value="DevOps">DevOps</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Facilities and Admin">Facilities and Admin</option>
+                    <option value="Finance and Accounts">Finance and Accounts</option>
+                    <option value="Human Resources">Human Resources</option>
+                    <option value="IT Operations">IT Operations</option>
+                    <option value="Project Management">Project Management</option>
+                    <option value="Learning and Development">Learning and Development</option>
+                    <option value="UI Design">UI Design</option>
+                    <option value="User Experience">User Experience</option>
+                </select><br>
+                <input class="inputbox" type="text" id="employer" name="employer" value="" placeholder="Previous or Current Employer*"><br>
+                <input class="inputbox" type="number" id="salary" name="salary" min="0" max="100" placeholder="Previous or Current Yearly CTC*(LPA)"><br>
+                <select class="inputbox3" name="preferred location" id="location" placeholder="Notice Period*" >
+                    <option value="">Notice Period*</option>
+                    <option value="Completed notice period">Completed notice period</option>
+                    <option value="Serving notice period">Serving notice period</option>
+                    <option value="Upto 1 month">Upto 1 month</option>
+                    <option value="2 months">2 months</option>
+                    <option value="3 months">3 months</option>
+                </select><br>
+                <select class="inputbox3" name="preferred location" id="location" placeholder="Highest Qualification*" >
+                    <option value="">Highest Qualification*</option>
+                    <option value="M Tech/ME/MS">M Tech/ME/MS</option>
+                    <option value="MCA/ MSc">MCA/ MSc</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BTech/BE/BSc">BTech/BE/BSc</option>
+                    <option value="MA/MCom">MA/MCom</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="BSc/BCA/BBA">BSc/BCA/BBA</option>
+                    <option value="Others">Others</option>
+                </select><br>
+                <input class="inputbox" type="text" id="college" name="college" value="" placeholder="College or University*"><br>
+                <h4 class="headingex">Academics</h4>
+                <div class="rowview">
+                   
+                    <input class="inputnum" type="number" id="year" name="year" min="0" max="100" placeholder="10th%">
+                    <select class="inputedu" name="academics" id="academics" >
+                        <option value="">Board</option>
+                        <option value="State">State</option>
+                        <option value="CBSE">CBSE</option>
+                        <option value="ICSE">ICSE</option>
+                        <option value="Others">Others</option>
+                    </select><br>
+                    </div><br>
+                <div class="rowview">
+                       
+                        <input class="inputnum" type="number" id="year" name="year" min="0" max="100" placeholder="12th%">
+                        <select class="inputedu" name="academics" id="academics"  >
+                            <option value="">Board</option>
+                            <option value="State">State</option>
+                            <option value="CBSE">CBSE</option>
+                            <option value="ICSE">ICSE</option>
+                            <option value="Others">Others</option>
+                        </select><br>
+                    </div><br>
+                <div class="rowview">
+        
+                        <input class="inputnum" type="number" id="year" name="year" min="0" max="100" placeholder="Degree %">
+                        
+                        </div><br>
+
+            </div>
+        </div>
+    </form>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray;width:70%">
+        </div>
+        <div class="up_resume" >
+        <h4 >Upload Resume*</h4>
+        <form action="index.html">
+            <input type="file" id="myFile" name="filename" style="border:thin">
+          </form>
+          <p>Maximum filesize: 2.5mb</p>
+    </div>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray;width:70%"><br>
+    <div style="text-align: center;">
+        <form action="index.html">
+            <button class="button" type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+    </div>
+    
+    </div>
+</body>
+</html>

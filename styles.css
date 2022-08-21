@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+    color:#e62552;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.heading1{
+    width: 300px;
+
+}
+
+select {
+    width: 500px;
+    height: 20px;
+    margin: 10px;
+}
+.firstline{
+    text-align: center;
+}
+
+.rowview{
+    display: flex;
+    flex-direction: row;
+}
+.columnview{
+    display: flex;
+    flex-direction: column;
+}
+.inputbox{
+    width: 400px;
+    height: 36px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    margin-left: 0px;
+    
+}
+.inputbox2{
+    width: 400px;
+    height: 150px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+}
+.inputbox3{
+    width: 400px;
+    height: 36px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+.headingex{
+    margin-top: 8px;
+}
+.inputnum{
+    width: 80px;
+    height: 36px;
+    margin-left: 13px;
+    margin-top: 0px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.up_resume{
+    padding-left: 200px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(199, 176, 176);
+    border: solid 1px #e62552;
+    border-radius: 5px;
+    border-color: #e62552;
+}
+
+.inputedu{
+    width: 150px;
+    height: 36px;
+    margin-left: 13px;
+    margin-top: 0px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+}
